@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ScenarioDef>
+		<defName>NowhereDeeper</defName>
+		<label>Nowhere Deeper</label>
+		<description>So you have too many clothes and weapons? Then joy, even cairns and totems are missing here. All you have is a naked ass and a cookie, even without chocolade.\n\nFor a complete immersion run on the Abyss difficulty.</description>
+		<scenario>
+			<summary>So you have too many clothes and weapons? Then joy.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>PlayerTribe</factionDef>
+			</playerFaction>
+
+		<parts>
+			<li Class="ScenPart_GameStartDialog">
+				<def>GameStartDialog</def>
+				<text>If you started this by your own will, you are finished masochist. All what you want to get you will mine by your own hands.\n\nFor a complete immersion run on the Abyss difficulty.</text>
+			</li>
+
+			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+				<def>ConfigPage_ConfigureStartingPawns</def>
+				<pawnCount>1</pawnCount>
+				<pawnChoiceCount>1</pawnChoiceCount>
+			</li>
+
+			<li Class="ScenPart_PlayerPawnsArriveMethod">
+				<def>PlayerPawnsArriveMethod</def>
+				<method>Standing</method>
+			</li>
+
+			<li Class="ScenPart_Naked">
+				<def>Naked</def>
+				<chance>1</chance>
+				<context>PlayerStarter</context>
+			</li>
+
+			<li Class="ScenPart_StatFactor">
+				<def>StatFactor</def>
+				<stat>StuffEffectMultiplierInsulation_Heat</stat>
+				<factor>0.8</factor>
+			</li>
+
+			<li Class="ScenPart_StatFactor">
+				<def>StatFactor</def>
+				<stat>StuffEffectMultiplierInsulation_Cold</stat>
+				<factor>0.8</factor>
+			</li>
+
+			<li Class="ScenPart_StatFactor">
+				<def>StatFactor</def>
+				<stat>Insulation_Heat</stat>
+				<factor>0.8</factor>
+			</li>
+
+			<li Class="ScenPart_StatFactor">
+				<def>StatFactor</def>
+				<stat>StuffPower_Insulation_Cold</stat>
+				<factor>0.8</factor>
+			</li>
+
+			<li Class="ScenPart_StatFactor">
+				<def>StatFactor</def>
+				<stat>Mass</stat>
+				<factor>1.2</factor>
+			</li>
+
+			<li Class="ScenPart_DisableIncident">
+				<def>DisableIncident</def>
+				<incident>ShipChunkDrop</incident>
+			</li>
+
+			<li Class="ScenPart_DisableIncident">
+				<def>DisableIncident</def>
+				<incident>RefugeePodCrash</incident>
+			</li>
+
+			<li Class="ScenPart_DisableIncident">
+				<def>DisableIncident</def>
+				<incident>ResourcePodCrash</incident>
+			</li>
+
+			<li Class="ScenPart_DisableIncident">
+				<def>DisableIncident</def>
+				<incident>StrangerInBlackJoin</incident>
+			</li>
+			
+			<li Class="ScenPart_DisableIncident">
+				<def>DisableIncident</def>
+				<incident>ColonistStash</incident>
+			</li>
+		</parts>
+		</scenario>
+	</ScenarioDef>
+</Defs>

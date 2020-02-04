@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<NowhereDeeper.label>Глубже некуда</NowhereDeeper.label>
+    <NowhereDeeper.description>Так тебе мало отсутствия одежды и оружия? Тогда радуйся, здесь отсутствуют даже каирны и тотемы. Все что у тебя есть - это голая жёппа и кукишь, даже без масла.\n\nДля полного погружения запускать на сложности Бездна.</NowhereDeeper.description>
+	
+	<NowhereDeeper.scenario.name>Глубже некуда</NowhereDeeper.scenario.name>
+	<NowhereDeeper.scenario.description>Так тебе мало отсутствия одежды и оружия? Тогда радуйся, здесь отсутствуют даже каирны и тотемы. Все что у тебя есть - это голая жёппа и кукишь, даже без масла.\n\nДля полного погружения запускать на сложности Бездна.</NowhereDeeper.scenario.description>
+	<NowhereDeeper.scenario.summary>Так тебе мало отсутствия одежды и оружия? Тогда радуйся.</NowhereDeeper.scenario.summary>
+	<NowhereDeeper.scenario.parts.0.text>Если ты начал этот сценарий по доброй воле, то ты конченный мазохист. Все придется добывать своими ручками.\n\nДля полного погружения запускать на сложности Бездна.</NowhereDeeper.scenario.parts.0.text>
+</LanguageData>

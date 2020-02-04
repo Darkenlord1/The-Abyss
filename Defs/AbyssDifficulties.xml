@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <DifficultyDef>
+        <defName>Abyss</defName>
+        <label>♿ &lt;b&gt;&lt;color=#60188c&gt;The Abyss&lt;/color&gt;&lt;/b&gt;</label>
+        <description>You asked for this.</description>
+        <drawColor>(0.8,0.14,0.53)</drawColor>
+        <isExtreme>true</isExtreme>
+        <difficulty>10</difficulty>
+        <threatScale>5</threatScale>
+        <adaptationEffectFactor>0.25</adaptationEffectFactor>
+        <colonistMoodOffset>-15</colonistMoodOffset>
+        <tradePriceFactorLoss>0.60</tradePriceFactorLoss>
+        <cropYieldFactor>0.75</cropYieldFactor>
+        <mineYieldFactor>0.75</mineYieldFactor>
+        <researchSpeedFactor>0.75</researchSpeedFactor>
+        <diseaseIntervalFactor>0.75</diseaseIntervalFactor>
+        <enemyReproductionRateFactor>1.25</enemyReproductionRateFactor>
+        <playerPawnInfectionChanceFactor>1.25</playerPawnInfectionChanceFactor>
+        <deepDrillInfestationChanceFactor>1.5</deepDrillInfestationChanceFactor>
+        <foodPoisonChanceFactor>1.25</foodPoisonChanceFactor>
+        <maintenanceCostFactor>1.25</maintenanceCostFactor>
+        <enemyDeathOnDownedChanceFactor>1</enemyDeathOnDownedChanceFactor>
+        <adaptationGrowthRateFactorOverZero>1</adaptationGrowthRateFactorOverZero>
+        <raidBeaconThreatCountFactor>1.35</raidBeaconThreatCountFactor>
+    </DifficultyDef>
+
+    <DifficultyDef>
+        <defName>Bezdnetz</defName>
+        <label>♿ &lt;b&gt;&lt;color=#60188c&gt;End of The Abyss&lt;/color&gt;&lt;/b&gt;</label>
+        <description>Ehhh...</description>
+        <drawColor>(0.5,0.07,0.25)</drawColor>
+        <isExtreme>true</isExtreme>
+        <difficulty>100</difficulty>
+        <threatScale>10</threatScale>
+        <adaptationEffectFactor>0.25</adaptationEffectFactor>
+        <colonistMoodOffset>-20</colonistMoodOffset>
+        <tradePriceFactorLoss>0.75</tradePriceFactorLoss>
+        <cropYieldFactor>0.6</cropYieldFactor>
+        <mineYieldFactor>0.6</mineYieldFactor>
+        <researchSpeedFactor>0.6</researchSpeedFactor>
+        <diseaseIntervalFactor>0.6</diseaseIntervalFactor>
+        <enemyReproductionRateFactor>1.5</enemyReproductionRateFactor>
+        <playerPawnInfectionChanceFactor>1.25</playerPawnInfectionChanceFactor>
+        <deepDrillInfestationChanceFactor>1.5</deepDrillInfestationChanceFactor>
+        <foodPoisonChanceFactor>1.75</foodPoisonChanceFactor>
+        <maintenanceCostFactor>1.25</maintenanceCostFactor>
+        <enemyDeathOnDownedChanceFactor>1</enemyDeathOnDownedChanceFactor>
+        <adaptationGrowthRateFactorOverZero>1</adaptationGrowthRateFactorOverZero>
+        <raidBeaconThreatCountFactor>1.35</raidBeaconThreatCountFactor>
+    </DifficultyDef>
+</Defs>
